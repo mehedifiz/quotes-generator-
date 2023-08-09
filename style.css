@@ -41,6 +41,7 @@ main {
   padding: 39px;
   border-radius: 20px;
   margin-bottom: 30px;
+  font-family: 'Roboto Mono', monospace;
 }
 .replace-button {
   background-color: #007bff;
