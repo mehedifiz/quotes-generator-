@@ -35,7 +35,7 @@ async function getRandomQuoteFromAPI(category) {
 
 async function updateQuote() {
     showLoadingAnimation();
-    const category = 'happiness'; // Change this to the desired category
+    const category = ''; // Change this to the desired category
     const randomQuote = await getRandomQuoteFromAPI(category);
     quoteElement.textContent = randomQuote;
     hideLoadingAnimation();
